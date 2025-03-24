@@ -44,7 +44,7 @@ class MovieAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-[alt text](README.md) ![text](<Screenshot 2025-03-24 231850.png>)
+![alt text](<Screenshot 2025-03-24 231850.png>)
 ![alt text](<Screenshot 2025-03-24 232137.png>)
 
 
