@@ -21,12 +21,14 @@ Execute Django admin and create details for 10 books
 ## PROGRAM
 ```
 admin.py
+
 from django.contrib import admin
 from .models import Movie,MovieAdmin
 
 admin.site.register(Movie,MovieAdmin)
 
 models.py
+
 from django.db import models
 from django.contrib import admin
 
@@ -42,7 +44,7 @@ class MovieAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-[text](README.md) ![text](<Screenshot 2025-03-24 231850.png>)
+[alt text](README.md) ![text](<Screenshot 2025-03-24 231850.png>)
 ![alt text](<Screenshot 2025-03-24 232137.png>)
 
 
